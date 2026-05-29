@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Jueguito jaja - 10 Vidas</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <canvas id="gameCanvas" width="500" height="700"></canvas>
+  <div id="gameOver">
+    GAME OVER<br>
+    Puntos: <span id="finalScore"></span><br>
+    <button onclick="location.reload()">Reiniciar</button>
+  </div>
+  <div id="warning"></div>
+  <div id="instrucciones">
+    <h2>Instrucciones</h2>
+    <p>Mueve la nave con las <strong>flechas</strong> o <strong>W A S D</strong>.</p>
+    <p>Evita chocar con los cubos rojos.</p>
+    <p>¡Llega lo más lejos que puedas!</p>
+    <button onclick="iniciarJuego()">START</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
